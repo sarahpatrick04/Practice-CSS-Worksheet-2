@@ -1,38 +1,51 @@
 body {
 background-color: #F2F2F2;
-color: #000000;
+color:#F2F2F2;
 font-family:'Noto Sans', sans-serif;
-font-size: 12px;
+font-size: 13px;
 line-height: 15px;
    }
-   
+
 h1 {
-  color: #9C3A3A;
-  font-family:'Bitter', serif;
-  font-size: 40px;
+  color: #F2F2F2;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  opacity: 0.8;
+  line-height: 78px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 57px;
   }
 
 h2 {
-  color: #9C3A3A;
-  font-family:'Bitter', serif;
-  font-size: 40px;
+  color: #F2F2F2;
+  font-family:'Ubuntu', serif;
+  font-size: 35px;
+  line-height: 143px;
+  margin-top: 2px;
+  opacity: 0.8;
+  margin-bottom: -42px;
+  margin-left: 21px;
   }
-  
-  
+
 .wrapper {
-background-color: #E0775A;
-opacity: 0.8;
+background-image: linear-gradient(to bottom right, transparent,#E0775A,transparent);
+border-radius: 15px;
+background-color: #CCBAB6;
+opacity: 0.9;
 width: 710px;
 margin: 20px auto;
-padding: 10px 30px 10px 30px;
+padding: 20px 187px;
 line-height: 29px;
 }
 
 a:hover {
-color: #9C3A3A;
+text-decoration: none;
+color: #2F4F4F;
 font-family: 'Bitter', serif;
 font-size: 20px;
-font-weight: 400;
+text-align: center;
 background-color: #EBC5C5; 
 
 }
@@ -43,7 +56,7 @@ nav li {
 list-style-type:none;
 display: inline-block;
 margin: 20px auto;
-padding: 5px 34px 5px 34px;
+padding: 8px 45px 5px 34px;
 
 
 
@@ -51,13 +64,15 @@ padding: 5px 34px 5px 34px;
 
 nav ul li a {
 display: block;
+border-radius: 15px;
+text-decoration: none;
 color: #9C3A3A;
 font-family: 'Bitter', serif;
 font-size: 20px;
-font-weight: 400;
 background-color: #B9E4F0;
-border: 1px solid #9C3A3A;
+opacity: 0.9;
 padding: 5px;
+transition: all 1s;
 text-align: center;
 margin: 5px auto;
 
